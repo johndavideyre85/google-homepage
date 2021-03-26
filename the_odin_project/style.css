@@ -1,0 +1,122 @@
+html{
+    height: 100%;
+    min-height: 100%;
+}
+body{
+    background-color: white;
+}
+#navbar{
+    display: grid;
+    grid-template-columns: 50px 50px 1fr 50px 50px 50px;
+    grid-template-rows: 50px;
+    grid-template-areas: "about store . gmail images menu sign-in";
+}
+a{
+    text-decoration: none;
+    color: rgb(12, 11, 11);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+#about{
+    grid-area: about;
+    justify-self: center;
+    align-self: center;
+}
+#store{
+    grid-area: store;
+    justify-self: center;
+    align-self:center;
+}
+#gmail{
+    grid-area: gmail;
+    justify-self: center;
+    align-self: center;
+}
+#images{
+    grid-area: images;
+    justify-self:center;
+    align-self: center;
+}
+#menu{
+    grid-area: menu;
+    justify-self: center;
+    align-self: center;
+}
+#sign-in{
+    grid-area: sign-in;
+    justify-self: center;
+    align-self: center;
+}
+#logo{
+    grid-area: logo;
+    justify-self: center;
+    align-self: end;
+    position: relative;
+    left: 500px;
+    top: 110px;
+}
+#input{
+    background-color: white;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    font-size:16px;
+    outline: none;
+    padding-inline-end: 44px;
+    padding-inline-start: 52px;
+    position: relative;
+    height: 45px;
+    width: 550px;
+    left: -450px;
+    top: 60px;
+}
+#google-search{
+    position: relative;
+    top: 130px;
+    left:-1050px;
+    height: 35px;
+    background: #F8F9FA;
+    margin: 11px 4px;
+    padding: 0px 16px;
+    border: 1px solid #f8f9fa
+}
+#random-search-button{
+    align-self: end;
+    position: relative;
+    top: 130px;
+    left: -780px;
+    height: 35px;
+    background: #F8F9FA;
+    margin: 11px 4px;
+    padding: 0px 16px;
+    border: 1px solid #f8f9fa
+}
+#footer{
+    position: relative;
+    top: 500px;
+    display: grid;
+    grid-template-columns: 50px 50px 1fr 50px 50px 50px 50px;
+    grid-template-rows: 50px;
+}
+#advertising{
+    position: relative;
+}
+#business{
+    position: relative;
+    left: 50px;
+}
+#how-search-works{
+    position: relative;
+    left: 90px;
+}
+#privacy{
+    position: relative;
+    left: 0px;
+}
+#terms{
+    position: relative;
+    left: 25px;
+}
+#settings{
+    position: relative;
+    left: 40px;
+}
